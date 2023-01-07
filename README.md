@@ -1,10 +1,16 @@
-# Setup
-This project was set up with the following commands:
+# About
+Basic React app jumpstarted with **[dylandbl/Base-TS-React-app](https://github.com/dylandbl/Base-TS-React-app)**. 
+
+Ready to go with [TypeScript](https://www.typescriptlang.org/), [Prettier](https://prettier.io/), [@Emotion/react](https://emotion.sh/docs/introduction) and @Emotion/styled, [ESLint](https://eslint.org/), and [Airbnb's default ESLint rules](https://github.com/airbnb/javascript/tree/master/react) and peer dependecies.
+
+
+Original project initialized with the following commands:
 ```sh
 npx create-react-app base-ts-app --template typescript
 ```
 ```sh
-yarn add --dev eslint eslint-config-prettier eslint-plugin-prettier prettier eslint-config-airbnb eslint-plugin-jest
+yarn add --dev eslint eslint-config-prettier eslint-plugin-prettier prettier eslint-plugin-jest
+npx install-peerdeps --dev eslint-config-airbnb
 npx eslint --init
 yarn add @emotion/styled @emotion/react
 ```
