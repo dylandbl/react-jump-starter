@@ -1,3 +1,15 @@
+Setup with
+
+```sh
+  npx create-react-app base-ts-app --template typescript
+
+  yarn add --dev eslint eslint-config-prettier eslint-plugin-prettier prettier eslint-config-airbnb eslint-plugin-jest
+
+  npx eslint --init
+
+  yarn add @emotion/styled @emotion/react
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
