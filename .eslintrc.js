@@ -19,6 +19,9 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/jsx-one-expression-per-line': 'off',
     'import/extensions': 'off',
+    'object-curly-newline': 'off',
+    // May want to change for your project.
+    'linebreak-style': 0,
   },
   settings: {
     'import/resolver': {
