@@ -4,7 +4,14 @@ module.exports = {
     es2021: true,
     'jest/globals': true,
   },
-  extends: ['plugin:react/recommended', 'airbnb'],
+  extends: [
+    'plugin:react/recommended',
+    'airbnb',
+    'airbnb/hooks',
+    'plugin:jsx-a11y/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'prettier',
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -17,9 +24,8 @@ module.exports = {
   rules: {
     'arrow-body-style': 'off',
     'function-paren-newline': 'off',
-    'implicit-arrow-linebreak': 'off', // Conflicts with Prettier.
     'import/extensions': 'off',
-    'import/no-unresolved': 'off', // Handled by TS.
+    'import/no-unresolved': 'off',
     'import/order': [
       'warn',
       {
@@ -41,10 +47,7 @@ module.exports = {
     ],
     'linebreak-style': 0, // May want to reconfigure for your project.
     'no-console': ['warn', { allow: ['warn', 'error'] }],
-    'no-undef': 'off', // Handled by TS.
-    'no-unused-vars': 'warn',
     'object-curly-newline': 'off',
-    'operator-linebreak': 'off', // Conflicts with Prettier.
     'react/destructuring-assignment': 'off',
     'react/function-component-definition': [
       'error',
