@@ -1,7 +1,7 @@
 # About
 Basic React app jumpstarted with **[dylandbl/react-jump-starter](https://github.com/dylandbl/react-jump-starter)**. 
 
-Set up with Yarn and ready to go with [TypeScript](https://www.typescriptlang.org/), [Prettier](https://prettier.io/), [@Emotion/react](https://emotion.sh/docs/introduction) and @Emotion/styled, [ESLint](https://eslint.org/), and [Airbnb's default ESLint rules](https://github.com/airbnb/javascript/tree/master/react) and peer dependecies. The default font is set to [Atkinson Hyperlegible](https://brailleinstitute.org/freefont) for improved legibility and readability for low vision readers.
+Set up with Yarn and ready to go with [TypeScript](https://www.typescriptlang.org/), [Prettier](https://prettier.io/), [@Emotion/react](https://emotion.sh/docs/introduction) and @Emotion/styled, [ESLint](https://eslint.org/), and [Airbnb's default ESLint rules](https://github.com/airbnb/javascript/tree/master/react) and peer dependecies. The default font is set to [Atkinson Hyperlegible](https://brailleinstitute.org/freefont) for improved legibility and readability for low-vision readers.
 
 
 Original project initialized with the following commands:
